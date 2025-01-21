@@ -8,10 +8,10 @@ where dreams begin...
 This is a example to learn CMake...
 
 ### build
-1. 进入 ***../CMake/build/***
-2. 执行 ***cmake .***
-3. 执行 ***make***
-4. 注意：第三步第一次执行时会报错，因为相关库没有生成；***重新执行一遍2~3***即可
+1. Enter ***../CMake/build/***
+2. Run ***cmake .***
+3. Run ***make***
+4. Note: The third step will fail the first time because the relevant libraries have not been generated；***repeat steps 2~3*** again
 
 
 ## project 2: Socket
