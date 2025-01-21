@@ -10,6 +10,9 @@ include_directories(${PROJECT_BINARY_DIR}/../inc)
 # 源文件路径
 aux_source_directory(${PROJECT_BINARY_DIR}/../src MAIN_SRC)
 
+# 设置编译选项，包含调试信息
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
+
 # 生成动态库
 add_library(SharedLib SHARED ${PROJECT_BINARY_DIR}/../src/SharedLib.cpp)
 
