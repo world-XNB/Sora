@@ -8,6 +8,7 @@ int main(int argc, char const *argv[])
     int a = 12;
     int b = 13;
     std::cout << "hello C++" << std::endl;
+    std::cout << "Custom functions" << std::endl;
     std::cout  << "a + b = " << add(a, b) << std::endl;
     std::cout << "test static library" << std::endl;
     static_print();

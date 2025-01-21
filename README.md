@@ -14,6 +14,6 @@ This is a example to learn CMake...
 4. 注意：第三步第一次执行时会报错，因为相关库没有生成；***重新执行一遍2~3***即可
 
 
-## project 2: CMake
+## project 2: Socket
 
 This is a example to learn socket client...
