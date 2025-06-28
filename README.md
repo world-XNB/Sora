@@ -17,3 +17,13 @@ This is a example to learn CMake...
 ## project 2: Socket
 
 This is a example to learn socket client...
+
+
+## project 3: StudyCPlus
+
+the project for study C++.
+
+### build
+1. Enter ***../CMake/build/***
+2. Run ***cmake .***
+3. Run ***make***

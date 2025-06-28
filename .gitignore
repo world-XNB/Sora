@@ -1,10 +1,13 @@
 # Ignore build artifacts
-build/
-bin/
-lib/
-CMakeCache.txt
-CMakeFiles/
-Makefile
-cmake_install.cmake
+**/build/
+**/bin/
+**/lib/
 
-!build/CMakeLists.txt
+# Ignore CMake files
+**/CMakeCache.txt
+**/CMakeFiles/
+**/Makefile
+**/cmake_install.cmake
+
+# Don't ignore CMakeLists.txt
+!**/CMakeLists.txt
